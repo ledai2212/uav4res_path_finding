@@ -1,0 +1,7 @@
+# Direct runtime dependencies. Weights & Biases is included because
+# qmix.py exposes it through --track.
+numpy>=1.24
+pygame>=2.5
+torch>=2.0
+tyro>=0.8
+wandb>=0.16
